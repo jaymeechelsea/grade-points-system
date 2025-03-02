@@ -16,7 +16,7 @@ graph TD
     H -->|Fetches grading data, integrates with LMS| J[External Educational APIs]
 
 graph TB
-    A[Frontend (Web/Mobile App)] -->|Displays student progress, reward points| B[Backend (API Server)]
+    A[Frontend] -->|Displays student progress, reward points| B[Backend (API Server)]
     B -->|Handles authentication, grading logic, and point conversion| C[Database]
     B -->|Exposes APIs for frontend and external systems| D[Payment Gateway]
     B -->|Connects with external educational systems| E[External APIs]
