@@ -15,6 +15,11 @@ graph TD
     G -->|Handles conversion of points into money| I[Payment Gateway]
     H -->|Fetches grading data, integrates with LMS| J[External Educational APIs]
 
+```
+## 2. Container Diagram
+The system consists of several containers that communicate with each other.
+
+```mermaid
 graph TB
     A[Frontend] -->|Displays student progress, reward points| B[Backend (API Server)]
     B -->|Handles authentication, grading logic, and point conversion| C[Database]
@@ -23,9 +28,15 @@ graph TB
     D -->|Processes point-to-money conversion| F[Payment System]
     E -->|Fetches grading data| G[External Educational APIs]
 
+```
+## 3. Component Diagram
+The key components include the following.
+
+```mermaid
 graph LR
     A[Authentication Service] -->|Manages user login and access| B[Grading Service]
     B -->|Processes assignments, awards points| C[Points Calculation Engine]
     C -->|Tracks points and balances| D[Reward System]
     D -->|Facilitates redemption and cash conversion| E[Admin Panel]
-
+    
+```
