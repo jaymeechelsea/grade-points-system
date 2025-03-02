@@ -5,15 +5,15 @@ The **Gradebook Points System** is an educational platform that tracks student p
 
 ```mermaid
 graph TD
-    A[Students] -->|Use system to complete tasks and redeem points| B[Frontend (Web/Mobile App)]
-    C[Teachers] -->|Upload grades, verify task completion| B
-    D[Admins] -->|Oversee platform, manage users, ensure reward distribution| B
-    B --> E[Backend (API Server)]
+    A[Students] -->|"Complete tasks & redeem points"| B[Frontend Web-Mobile App]
+    C[Teachers] -->|"Upload grades, verify tasks"| B
+    D[Admins] -->|"Manage users & rewards"| B
+    B --> E[Backend API Server]
     E --> F[Database]
     E --> G[Payment System]
     E --> H[External Educational APIs]
-    G -->|Handles conversion of points into money| I[Payment Gateway]
-    H -->|Fetches grading data, integrates with LMS| J[External Educational APIs]
+    G -->|"Convert points to money"| I[Payment Gateway]
+    H -->|"Fetch grading data & integrate with LMS"| J[External Educational APIs]
 
 ```
 ## 2. Container Diagram
@@ -21,7 +21,7 @@ The system consists of several containers that communicate with each other.
 
 ```mermaid
 graph TB
-    A[Frontend] -->|Displays student progress, reward points| B[Backend (API Server)]
+    A[Frontend Web-Mobile App] -->|Displays student progress, reward points| B[Backend API Server]
     B -->|Handles authentication, grading logic, and point conversion| C[Database]
     B -->|Exposes APIs for frontend and external systems| D[Payment Gateway]
     B -->|Connects with external educational systems| E[External APIs]
@@ -38,5 +38,5 @@ graph LR
     B -->|Processes assignments, awards points| C[Points Calculation Engine]
     C -->|Tracks points and balances| D[Reward System]
     D -->|Facilitates redemption and cash conversion| E[Admin Panel]
-    
+
 ```
