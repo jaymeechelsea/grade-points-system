@@ -1,2 +1,0 @@
-# jaymee-henderson
- Software Engineering 
