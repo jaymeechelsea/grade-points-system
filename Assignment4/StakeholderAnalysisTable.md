@@ -1,4 +1,4 @@
-Stakeholder Analysis Table
+**Stakeholder Analysis Table**
 
 | Role | Key Concerns | Pain Points | Success Metrics |
 |---------------------|--------------|-------------|----------------|
