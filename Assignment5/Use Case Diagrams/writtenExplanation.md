@@ -1,8 +1,5 @@
 **Written Explanation**
 
-
-The Student actor can initiate the Reserve Book use case, which depends on the Check Availability use case. This supports the librarian’s concern for reducing manual errors in reservations
-
 | Key Actors  | Use Cases | Explanation | 
 |-------------|-----------|-------------|
 | **Students**| Register, Login, View Dashboard, Redeem Points, Submit Disputes | The *Student* a primary actor that initiates the Redeem Points use case, which has an inclusion relationship with the Process Peyment use case initiated by the *Payment Provider*. The *Student can also inititate the Submit Disputes use case that has an extended relationship with the Review Disputes use case inititated by the *Educators*. This supports the *Students* concerns about accurate point calculation and fast reward redemptions.|
