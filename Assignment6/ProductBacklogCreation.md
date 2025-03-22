@@ -32,3 +32,13 @@ They are critical to the minimum viable product (MVP) and align with core stakeh
 *US-008 (Role-Based Access Control)* This feature is critical for security and compliance purposes. It depends on US-001 though.
 
 *US-009 (Data Encryption)* This is a non-negotiable for compliance with data protection laws and user trust.
+
+Should-Have Stories: 
+
+They enhance the systems usability and functionality, but are not critical to launch:
+
+*US-005 (Notifications)* This improves the users engagement in the system by alerting users about grade updates and point changes, although the core system can operate without it.
+
+*US-006 (Dispute Submission)* It adds a layer of user support, but can be left out if the initial dispute handling is managed manually.
+
+*US-010 (Generate Transaction Receipts)* This is to build trust by documenting redemptions and it is secondary to enabling the redemption process itself.
