@@ -1,0 +1,5 @@
+**Kanban Explanation**
+
+A Kanban Board is like a visual board showing all yours or your teams tasks that are needed to complete a project. It is used to show and manage the tasks more effectively. Kanban boards usually limit work in progess to help users focus on tasks and to not overwhelm them. It also promotes transparency so everyone can see where everyone is with different tasks. It includes collaboration between team members and allows for continuous improvement due to the visual setup of the columns and tasks.
+
+The board I'm using is the Automated Kanban board where each column repesents different progress points along the task completion stages. In this way it supports agile principles because users can visualise and iterate through tasks on the board. It limits work in progress to reduce bottlenecks between tasks.
