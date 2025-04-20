@@ -1,0 +1,8 @@
+**Explanation**
+I chose to use JavaScript because I'm used to implementing this language and I figured it was best for a web development project like mine where it is easier to implement frontend and backend with Node.js. It also supports OOP and the functional paradigms. It is widely used for UI/UX and REST API's usually so I decided to use it here too, it also makes the patterns a lot cleaner. A worry about using this language is that it is not as strict about classes or inheritance as the other OOP languages, but all in all it has good structure and pattern support.
+
+**Design Patterns Justification**
+The system leverages a variety of design patterns to model user and domain entities efficiently, ensuring modularity, scalability, and maintainability. The User class employs several patterns including the Simple Factory for centralized object creation, the Factory Method and Abstract Factory for user-specific instantiation logic, the Builder for step-by-step configuration, the Prototype for object cloning, and the Singleton for managing a consistent shared instance of users. These patterns provide flexibility to handle different user roles and behaviors.
+
+Domain-specific classes such as Student, Educator, Grade, Admin, Point, Redemption, Dispute, Notification, and RedemptionRule also use Simple Factory, Builder, Prototype, and Singleton patterns where applicable. These allow for clean object instantiation, cloning of similar entities, structured configuration, and shared registries. Overall, these patterns were chosen to reduce tight coupling, enhance reusability, and enable easier future enhancements in the system's architecture.
+
