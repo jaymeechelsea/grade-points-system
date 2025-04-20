@@ -1,6 +1,6 @@
 ```mermaid
 classDiagram
-class User {
+    class User {
         +String user_id
         +String name
         +String email
