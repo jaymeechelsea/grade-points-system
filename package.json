@@ -2,8 +2,8 @@
   "name": "grade-points-system",
   "version": "16.20.2",
   "type": "module", 
-  "scripts": {
-  "test": "node --experimental-vm-modules node_modules/.bin/jest"
+"scripts": {
+  "test": "node --experimental-vm-modules node_modules/.bin/jest --config jest.config.cjs"
 },
   "devDependencies": {
     "@babel/core": "^7.26.10",
